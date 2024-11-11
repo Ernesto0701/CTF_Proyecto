@@ -29,7 +29,7 @@ Para la instalacion de Docker es necesario descargarlo desde la pagina https://w
 y habilitar kubernetes desde la configuración 
 ```
 
-### INstalar Istio para el monitoreo
+### Instalar Istio para el monitoreo
 * Descaragar Istio desde el sitio web:
 ```
 curl -L https://istio.io/downloadIstio | sh -
