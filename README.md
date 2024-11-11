@@ -31,20 +31,10 @@ y habilitar kubernetes desde la configuración
 
 ### INstalar Istio para el monitoreo
 * Descaragar Istio desde el sitio web:
-```
-curl -L https://istio.io/downloadIstio | sh -
-```
+1. Ve a Istio releases en GitHub y descarga la última versión compatible para Windows.
+https://github.com/istio/istio/releases
 
-* Accede a la carpeta de Istio:
-```
-cd istio-1.*
-```
-
-* Agrega Istio al PATH:
-```
-$env:Path += ";$PWD/bin"
-istioctl install --set profile=demo -y
-```
+2. Extrae el archivo y agrega el ejecutable istioctl a tu PATH.
 
 * Habilitar la inyecccion automatica de Istio
 ```
